@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		02D2066426FC6C2F00C81AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2066326FC6C2F00C81AC8 /* AppDelegate.swift */; };
 		02D2066626FC6C2F00C81AC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2066526FC6C2F00C81AC8 /* SceneDelegate.swift */; };
-		02D2066826FC6C2F00C81AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2066726FC6C2F00C81AC8 /* ViewController.swift */; };
 		02D2066B26FC6C2F00C81AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D2066926FC6C2F00C81AC8 /* Main.storyboard */; };
 		02D2066D26FC6C3100C81AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D2066C26FC6C3100C81AC8 /* Assets.xcassets */; };
 		02D2067026FC6C3100C81AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D2066E26FC6C3100C81AC8 /* LaunchScreen.storyboard */; };
+		02D2067E26FC70ED00C81AC8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D2067C26FC70ED00C81AC8 /* Home.storyboard */; };
+		02D2068026FC74BA00C81AC8 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2067F26FC74BA00C81AC8 /* HomeTabViewController.swift */; };
+		02D2068526FC76B700C81AC8 /* HomeTopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2068426FC76B700C81AC8 /* HomeTopMenuViewController.swift */; };
+		02D2068726FC78BF00C81AC8 /* EntireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2068626FC78BF00C81AC8 /* EntireViewController.swift */; };
+		02D2068C26FC949A00C81AC8 /* ProductsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2068A26FC949900C81AC8 /* ProductsNetworkManager.swift */; };
+		02D2068D26FC949A00C81AC8 /* ProductsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2068B26FC949A00C81AC8 /* ProductsAPI.swift */; };
+		02D2069026FC94BB00C81AC8 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2068F26FC94BB00C81AC8 /* Products.swift */; };
+		02D2069626FC96FA00C81AC8 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2069426FC96FA00C81AC8 /* ProductsTableViewCell.swift */; };
+		02D2069726FC96FA00C81AC8 /* ProductsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D2069526FC96FA00C81AC8 /* ProductsTableViewCell.xib */; };
+		02D2069926FC98E700C81AC8 /* EntireProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2069826FC98E700C81AC8 /* EntireProductsViewModel.swift */; };
+		80EF4BFE222803598A5DA4A2 /* Pods_KakaoMakers_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF77E7AC8531E704ADF58789 /* Pods_KakaoMakers_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02D2066026FC6C2F00C81AC8 /* KakaoMakers_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoMakers_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D2066326FC6C2F00C81AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D2066526FC6C2F00C81AC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02D2066726FC6C2F00C81AC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02D2066A26FC6C2F00C81AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02D2066C26FC6C3100C81AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02D2066F26FC6C3100C81AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02D2067126FC6C3100C81AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D2067D26FC70ED00C81AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		02D2067F26FC74BA00C81AC8 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		02D2068426FC76B700C81AC8 /* HomeTopMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopMenuViewController.swift; sourceTree = "<group>"; };
+		02D2068626FC78BF00C81AC8 /* EntireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntireViewController.swift; sourceTree = "<group>"; };
+		02D2068A26FC949900C81AC8 /* ProductsNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsNetworkManager.swift; sourceTree = "<group>"; };
+		02D2068B26FC949A00C81AC8 /* ProductsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsAPI.swift; sourceTree = "<group>"; };
+		02D2068F26FC94BB00C81AC8 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		02D2069426FC96FA00C81AC8 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		02D2069526FC96FA00C81AC8 /* ProductsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTableViewCell.xib; sourceTree = "<group>"; };
+		02D2069826FC98E700C81AC8 /* EntireProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntireProductsViewModel.swift; sourceTree = "<group>"; };
+		46A21B09DFE882A3E9177FF9 /* Pods-KakaoMakers_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoMakers_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-KakaoMakers_MVVM/Pods-KakaoMakers_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		80D2E24B65F094F2FE1B5F1D /* Pods-KakaoMakers_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoMakers_MVVM.release.xcconfig"; path = "Target Support Files/Pods-KakaoMakers_MVVM/Pods-KakaoMakers_MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		AF77E7AC8531E704ADF58789 /* Pods_KakaoMakers_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaoMakers_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EF4BFE222803598A5DA4A2 /* Pods_KakaoMakers_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				02D2066226FC6C2F00C81AC8 /* KakaoMakers_MVVM */,
 				02D2066126FC6C2F00C81AC8 /* Products */,
+				E4C3E0BE710EB9CF09DD2B75 /* Pods */,
+				83E0C1EDBB4B5C8A42D30C25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,97 @@
 		02D2066226FC6C2F00C81AC8 /* KakaoMakers_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				02D2068826FC947B00C81AC8 /* Service */,
+				02D2068126FC74C000C81AC8 /* StoryBoards */,
+				02D2068E26FC94A600C81AC8 /* Model */,
+				02D2069226FC94F800C81AC8 /* View */,
+				02D2069126FC94EF00C81AC8 /* ViewModel */,
 				02D2066326FC6C2F00C81AC8 /* AppDelegate.swift */,
 				02D2066526FC6C2F00C81AC8 /* SceneDelegate.swift */,
-				02D2066726FC6C2F00C81AC8 /* ViewController.swift */,
-				02D2066926FC6C2F00C81AC8 /* Main.storyboard */,
 				02D2066C26FC6C3100C81AC8 /* Assets.xcassets */,
 				02D2066E26FC6C3100C81AC8 /* LaunchScreen.storyboard */,
 				02D2067126FC6C3100C81AC8 /* Info.plist */,
 			);
 			path = KakaoMakers_MVVM;
+			sourceTree = "<group>";
+		};
+		02D2068126FC74C000C81AC8 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				02D2066926FC6C2F00C81AC8 /* Main.storyboard */,
+				02D2067C26FC70ED00C81AC8 /* Home.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		02D2068826FC947B00C81AC8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				02D2068926FC948400C81AC8 /* API */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		02D2068926FC948400C81AC8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				02D2068B26FC949A00C81AC8 /* ProductsAPI.swift */,
+				02D2068A26FC949900C81AC8 /* ProductsNetworkManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		02D2068E26FC94A600C81AC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02D2068F26FC94BB00C81AC8 /* Products.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02D2069126FC94EF00C81AC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02D2069826FC98E700C81AC8 /* EntireProductsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		02D2069226FC94F800C81AC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02D2069326FC96C500C81AC8 /* Cell */,
+				02D2067F26FC74BA00C81AC8 /* HomeTabViewController.swift */,
+				02D2068426FC76B700C81AC8 /* HomeTopMenuViewController.swift */,
+				02D2068626FC78BF00C81AC8 /* EntireViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02D2069326FC96C500C81AC8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				02D2069426FC96FA00C81AC8 /* ProductsTableViewCell.swift */,
+				02D2069526FC96FA00C81AC8 /* ProductsTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		83E0C1EDBB4B5C8A42D30C25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF77E7AC8531E704ADF58789 /* Pods_KakaoMakers_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4C3E0BE710EB9CF09DD2B75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46A21B09DFE882A3E9177FF9 /* Pods-KakaoMakers_MVVM.debug.xcconfig */,
+				80D2E24B65F094F2FE1B5F1D /* Pods-KakaoMakers_MVVM.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02D2067426FC6C3100C81AC8 /* Build configuration list for PBXNativeTarget "KakaoMakers_MVVM" */;
 			buildPhases = (
+				7037A96E79AAC3CF4706299B /* [CP] Check Pods Manifest.lock */,
 				02D2065C26FC6C2F00C81AC8 /* Sources */,
 				02D2065D26FC6C2F00C81AC8 /* Frameworks */,
 				02D2065E26FC6C2F00C81AC8 /* Resources */,
+				1010B835AA995B3A0229153E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D2067026FC6C3100C81AC8 /* LaunchScreen.storyboard in Resources */,
+				02D2067E26FC70ED00C81AC8 /* Home.storyboard in Resources */,
+				02D2069726FC96FA00C81AC8 /* ProductsTableViewCell.xib in Resources */,
 				02D2066D26FC6C3100C81AC8 /* Assets.xcassets in Resources */,
 				02D2066B26FC6C2F00C81AC8 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +244,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1010B835AA995B3A0229153E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoMakers_MVVM/Pods-KakaoMakers_MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoMakers_MVVM/Pods-KakaoMakers_MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakaoMakers_MVVM/Pods-KakaoMakers_MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7037A96E79AAC3CF4706299B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakaoMakers_MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02D2065C26FC6C2F00C81AC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02D2066826FC6C2F00C81AC8 /* ViewController.swift in Sources */,
+				02D2069026FC94BB00C81AC8 /* Products.swift in Sources */,
+				02D2068C26FC949A00C81AC8 /* ProductsNetworkManager.swift in Sources */,
+				02D2068D26FC949A00C81AC8 /* ProductsAPI.swift in Sources */,
+				02D2069926FC98E700C81AC8 /* EntireProductsViewModel.swift in Sources */,
+				02D2069626FC96FA00C81AC8 /* ProductsTableViewCell.swift in Sources */,
+				02D2068726FC78BF00C81AC8 /* EntireViewController.swift in Sources */,
+				02D2068026FC74BA00C81AC8 /* HomeTabViewController.swift in Sources */,
+				02D2068526FC76B700C81AC8 /* HomeTopMenuViewController.swift in Sources */,
 				02D2066426FC6C2F00C81AC8 /* AppDelegate.swift in Sources */,
 				02D2066626FC6C2F00C81AC8 /* SceneDelegate.swift in Sources */,
 			);
@@ -161,6 +321,14 @@
 				02D2066F26FC6C3100C81AC8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		02D2067C26FC70ED00C81AC8 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02D2067D26FC70ED00C81AC8 /* Base */,
+			);
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,6 +452,7 @@
 		};
 		02D2067526FC6C3100C81AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A21B09DFE882A3E9177FF9 /* Pods-KakaoMakers_MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +481,7 @@
 		};
 		02D2067626FC6C3100C81AC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D2E24B65F094F2FE1B5F1D /* Pods-KakaoMakers_MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
