@@ -60,6 +60,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D0134726FDB76C000EC772 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02D0134826FDB777000EC772 /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		02D0134826FDB777000EC772 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02D2067F26FC74BA00C81AC8 /* HomeTabViewController.swift */,
+				02D2068426FC76B700C81AC8 /* HomeTopMenuViewController.swift */,
+				02D2068626FC78BF00C81AC8 /* EntireViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		02D2065726FC6C2E00C81AC8 = {
 			isa = PBXGroup;
 			children = (
@@ -141,9 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				02D2069326FC96C500C81AC8 /* Cell */,
-				02D2067F26FC74BA00C81AC8 /* HomeTabViewController.swift */,
-				02D2068426FC76B700C81AC8 /* HomeTopMenuViewController.swift */,
-				02D2068626FC78BF00C81AC8 /* EntireViewController.swift */,
+				02D0134726FDB76C000EC772 /* Controller */,
 			);
 			path = View;
 			sourceTree = "<group>";
